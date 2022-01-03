@@ -1,0 +1,28 @@
+.advert {
+  display: block;
+}
+
+.advert .add-A {
+  position: fixed;
+  top: 280px;
+  left: 20px;
+  width: 180px;
+}
+
+.advert .add-B {
+  position: fixed;
+  top: 280px;
+  right: 20px;
+  width: 180px;
+}
+
+.advert .add-img {
+  width: 180px;
+  height: 180px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .advert {
+    display: none;
+  }
+}

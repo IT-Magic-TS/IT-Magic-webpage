@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.privacy a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.alert-privacy .message {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 989 !important;
+}

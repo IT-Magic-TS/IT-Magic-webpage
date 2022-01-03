@@ -1,0 +1,50 @@
+.navigation .it-magic {
+  color: rgb(241, 255, 112);
+  font-size: 1.7em;
+  font-weight: bold;
+  transform: rotate(4deg);
+}
+
+.active {
+  color: rgb(241, 255, 112);
+}
+
+.layout-container {
+  margin-top: 70px;
+}
+
+.mobile-links {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 70;
+  width: 100%;
+}
+
+.footer {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation .links {
+    margin-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer .text-message {
+    font-size: 10px;
+  }
+
+  .footer .social img {
+    width: 24px;
+    height: 24px;
+  }
+}
