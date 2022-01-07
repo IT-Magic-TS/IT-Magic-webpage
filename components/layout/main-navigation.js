@@ -4,6 +4,7 @@ import { useState } from "react";
 
 function MainNavigation() {
   const [openNav, setOpenNav] = useState(false);
+
   const router = useRouter();
 
   const d = new Date();
@@ -11,7 +12,7 @@ function MainNavigation() {
 
   return (
     <>
-      <div className="w3-top navigation">
+      <div className="navigation desktop">
         {/* Navigation for Desktop */}
         <div className="w3-bar w3-dark-grey w3-large w3-hide-small">
           <div className="w3-content">
@@ -31,15 +32,26 @@ function MainNavigation() {
                   Gallery
                 </a>
               </Link>
-              <Link href="/calculations">
+              <Link href="/perfect-stairs">
                 <a
                   className={
-                    router.pathname === "/calculations"
+                    router.pathname === "/perfect-stairs"
                       ? "w3-bar-item w3-button active"
                       : "w3-bar-item w3-button"
                   }
                 >
-                  Calculations
+                  Perfect Stairs
+                </a>
+              </Link>
+              <Link href="/apps">
+                <a
+                  className={
+                    router.pathname === "/apps"
+                      ? "w3-bar-item w3-button active"
+                      : "w3-bar-item w3-button"
+                  }
+                >
+                  Apps
                 </a>
               </Link>
               <Link href="/game">
@@ -88,16 +100,16 @@ function MainNavigation() {
                 Home
               </a>
             </Link>
-            <Link href="/calculations">
+            <Link href="/perfect-stairs">
               <a
                 onClick={() => setOpenNav(false)}
                 className={
-                  router.pathname === "/calculations"
+                  router.pathname === "/perfect-stair"
                     ? "w3-bar-item w3-button active"
                     : "w3-bar-item w3-button"
                 }
               >
-                Calculations
+                Perfect Stairs
               </a>
             </Link>
             <Link href="/gallery">
@@ -110,6 +122,18 @@ function MainNavigation() {
                 }
               >
                 Gallery
+              </a>
+            </Link>
+            <Link href="/apps">
+              <a
+                onClick={() => setOpenNav(false)}
+                className={
+                  router.pathname === "/apps"
+                    ? "w3-bar-item w3-button active"
+                    : "w3-bar-item w3-button"
+                }
+              >
+                Android Apps
               </a>
             </Link>
             <Link href="/privacy">
@@ -125,6 +149,7 @@ function MainNavigation() {
               </a>
             </Link>
           </div>
+
           <div className="w3-center" style={{ marginTop: "20px" }}>
             <a
               href="https://play.google.com/store/apps/collection/cluster?clp=igNAChkKEzgwNDEzMzkxNTMwOTY1MjAxMzYQCBgDEiEKG2Rldi5pdG1hZ2ljLnN0YWlyY2FsY3VsYXRvchABGAMYAQ%3D%3D:S:ANO1ljIMj2Y&gsr=CkOKA0AKGQoTODA0MTMzOTE1MzA5NjUyMDEzNhAIGAMSIQobZGV2Lml0bWFnaWMuc3RhaXJjYWxjdWxhdG9yEAEYAxgB:S:ANO1ljJEEBQ"

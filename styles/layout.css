@@ -5,12 +5,20 @@
   transform: rotate(4deg);
 }
 
-.active {
-  color: rgb(241, 255, 112);
+.navigation {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !;
+  width: 100%;
+  z-index: 14 !important;
 }
 
 .layout-container {
   margin-top: 70px;
+}
+
+.active {
+  color: rgb(241, 255, 112);
 }
 
 .mobile-links {
@@ -35,6 +43,12 @@
 
   .navigation .links {
     margin-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .layout-container {
+    margin-top: 50px;
   }
 }
 

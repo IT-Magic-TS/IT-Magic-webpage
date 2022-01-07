@@ -44,7 +44,7 @@ export default function Home() {
                   <h3>Oval Stairs</h3>
                   <p>Unique stairs & balustrades - more than 1400 parts</p>
                 </div>
-                <Link href="/gallery">
+                <Link href="/oval-stairs">
                   <a className="w3-button w3-block w3-dark-grey">
                     View <img src="/svg/arrow_right.svg" />
                   </a>
@@ -69,7 +69,7 @@ export default function Home() {
                     gallery).
                   </p>
                 </div>
-                <Link href="/gallery">
+                <Link href="/balustrade-cnc">
                   <a className="w3-button w3-block w3-dark-grey">
                     View <img src="/svg/arrow_right.svg" />
                   </a>
@@ -93,7 +93,7 @@ export default function Home() {
                     All srcolls designed for laser or water-jet cnc cutting.
                   </p>
                 </div>
-                <Link href="/gallery">
+                <Link href="/podestrian-gates">
                   <a className="w3-button w3-block w3-dark-grey">
                     View <img src="/svg/arrow_right.svg" />
                   </a>
@@ -115,7 +115,7 @@ export default function Home() {
                   <h3>Helical Stairs</h3>
                   <p>Metal stairs with glass balustrade inside and outside.</p>
                 </div>
-                <Link href="/gallery">
+                <Link href="/helical-stair">
                   <a className="w3-button w3-block w3-dark-grey">
                     View <img src="/svg/arrow_right.svg" />
                   </a>
@@ -140,7 +140,7 @@ export default function Home() {
                     make. Can be expensive.
                   </p>
                 </div>
-                <Link href="/gallery">
+                <Link href="/metal-stairs-glass-balustrade">
                   <a className="w3-button w3-block w3-dark-grey">
                     View <img src="/svg/arrow_right.svg" />
                   </a>
@@ -165,7 +165,7 @@ export default function Home() {
                     balustrade.
                   </p>
                 </div>
-                <Link href="/gallery">
+                <Link href="/qrailing-glass-balustrade">
                   <a className="w3-button w3-block w3-dark-grey">
                     View <img src="/svg/arrow_right.svg" />
                   </a>

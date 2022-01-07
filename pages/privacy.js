@@ -1,6 +1,6 @@
 function Privacy() {
   return (
-    <div className="privacy">
+    <div className="w3-margin privacy">
       <h1>Privacy Policy</h1>
       <p>
         At Eve Star, accessible from https://itmagic.dev, one of our main

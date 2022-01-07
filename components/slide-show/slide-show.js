@@ -11,8 +11,6 @@ export default function SlideShow({ activeImg, images, closeSlideShow }) {
     const splitSrc = src.split("/");
     const newSrc = `/images/${activeImg.type}-big/${splitSrc[3]}`;
 
-    console.log(newSrc);
-
     const newImg = { ...activeImg, src: newSrc, active: true };
     setNewActiveImage(newImg);
 
