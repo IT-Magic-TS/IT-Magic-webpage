@@ -3,10 +3,11 @@ function Privacy() {
     <div className="w3-margin privacy">
       <h1>Privacy Policy</h1>
       <p>
-        At Eve Star, accessible from https://itmagic.dev, one of our main
-        priorities is the privacy of our visitors. This Privacy Policy document
-        contains types of information that is collected and recorded by 3D
-        Design PRO and how we use it. If you have additional questions or
+        At Eve Star, accessible from{" "}
+        <a href="https://itmagic.vercel.app">itmagic.vercel.app</a>, one of our
+        main priorities is the privacy of our visitors. This Privacy Policy
+        document contains types of information that is collected and recorded by
+        3D Design PRO and how we use it. If you have additional questions or
         require more information about our Privacy Policy, do not hesitate to
         contact us through email at info@itmagic.dev
       </p>
