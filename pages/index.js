@@ -25,11 +25,11 @@ export default function Home() {
           <h1 className="w3-text-brown">
             3D design, 2D cad drawings, and water-jet cnc programming
           </h1>
-          <h3 className="w3-text-brown ">
+          <h2 className="w3-text-brown ">
             Experiences from the most expensive housing market. Is easy to
             repair 3D model, 2D drawing. Maket it perfect for production. Save
             time and sell it with profit &#8987;&#127774;&#127906;
-          </h3>
+          </h2>
         </div>
         <div className="w3-row w3-container">
           <div className="w3-row">
@@ -49,7 +49,12 @@ export default function Home() {
                 </div>
                 <Link href="/oval-stairs">
                   <a className="w3-button w3-block w3-dark-grey">
-                    View <img src="/svg/arrow_right.svg" />
+                    View{" "}
+                    <img
+                      src="/svg/arrow_right.svg"
+                      alt="arrow-right"
+                      className="arrow-right"
+                    />
                   </a>
                 </Link>
               </div>
@@ -74,7 +79,12 @@ export default function Home() {
                 </div>
                 <Link href="/balustrade-cnc">
                   <a className="w3-button w3-block w3-dark-grey">
-                    View <img src="/svg/arrow_right.svg" />
+                    View{" "}
+                    <img
+                      src="/svg/arrow_right.svg"
+                      alt="arrow-right"
+                      className="arrow-right"
+                    />
                   </a>
                 </Link>
               </div>
@@ -98,7 +108,12 @@ export default function Home() {
                 </div>
                 <Link href="/pedestrian-gates">
                   <a className="w3-button w3-block w3-dark-grey">
-                    View <img src="/svg/arrow_right.svg" />
+                    View{" "}
+                    <img
+                      src="/svg/arrow_right.svg"
+                      alt="arrow-right"
+                      className="arrow-right"
+                    />
                   </a>
                 </Link>
               </div>
@@ -120,7 +135,12 @@ export default function Home() {
                 </div>
                 <Link href="/helical-stair">
                   <a className="w3-button w3-block w3-dark-grey">
-                    View <img src="/svg/arrow_right.svg" />
+                    View{" "}
+                    <img
+                      src="/svg/arrow_right.svg"
+                      alt="arrow-right"
+                      className="arrow-right"
+                    />
                   </a>
                 </Link>
               </div>
@@ -145,7 +165,12 @@ export default function Home() {
                 </div>
                 <Link href="/metal-stairs-glass-balustrade">
                   <a className="w3-button w3-block w3-dark-grey">
-                    View <img src="/svg/arrow_right.svg" />
+                    View{" "}
+                    <img
+                      src="/svg/arrow_right.svg"
+                      alt="arrow-right"
+                      className="arrow-right"
+                    />
                   </a>
                 </Link>
               </div>
@@ -170,7 +195,12 @@ export default function Home() {
                 </div>
                 <Link href="/qrailing-glass-balustrade">
                   <a className="w3-button w3-block w3-dark-grey">
-                    View <img src="/svg/arrow_right.svg" />
+                    View{" "}
+                    <img
+                      src="/svg/arrow_right.svg"
+                      alt="arrow-right"
+                      className="arrow-right"
+                    />
                   </a>
                 </Link>
               </div>

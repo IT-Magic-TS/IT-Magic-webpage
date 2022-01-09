@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      {/* <MessengerChat pageId="108660137620792" />; */}
+      <MessengerChat pageId="108660137620792" />;
     </>
   );
 }
