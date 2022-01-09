@@ -5,16 +5,16 @@ export default function OvalStairs() {
   return (
     <>
       <Head>
-        <title>Montreaux steel stairs and balustrade</title>
+        <title>Metal Stairs & Balustrade | Water-Jet Cutting</title>
         <meta
           name="description"
-          content="Expensive metal stairs. Everythin cut with water-jet cnc."
+          content="More than 1200 parts. Veery popular design and with perfet 3D model not difficult to make. Everything cut and marked on water-jet cnc machine."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         <h1 className="w3-center main-posts-h1">
-          Montreaux Steel Stairs and Balustrade
+          Metal Stairs & Balustrade - Water-Jet Cutting
         </h1>
         <div className="main-posts-img-container">
           <div className="w3-display-container">
@@ -100,7 +100,7 @@ export default function OvalStairs() {
           <ul className="w3-ul">
             <li className="w3-hover-light-grey">More than 1200 parts</li>
             <li className="w3-hover-light-grey">
-              Perfect 3D model - very easy to make
+              Perfect 3D model - not difficult to make
             </li>
             <li className="w3-hover-light-grey">
               All parts and templates marked

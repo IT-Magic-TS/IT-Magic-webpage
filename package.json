@@ -5,15 +5,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "node scripts/sitemap.js",
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
+    "firebase": "^9.6.2",
+    "fs-extra": "^10.0.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-messenger-chat-plugin": "^1.0.9",
+    "sharp": "^0.29.3"
   },
   "devDependencies": {
     "eslint": "8.5.0",

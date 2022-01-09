@@ -10,6 +10,7 @@ import Layout from "../components/layout/layout";
 import OrnamentalCircles from "../components/ornamental-circles/ornamental-circles";
 import Advert from "../components/advert";
 import AlertPrivacy from "../components/alert-privacy";
+import { MessengerChat } from "react-messenger-chat-plugin";
 
 function MyApp({ Component, pageProps }) {
   // set privacy
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      {/* <MessengerChat pageId="108660137620792" />; */}
     </>
   );
 }

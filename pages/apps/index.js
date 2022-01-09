@@ -1,14 +1,22 @@
 import Image from "next/image";
+import Head from "next/head";
 
-function CalculatorStair() {
+function Apps() {
   return (
     <>
+      <Head>
+        <title>
+          Stair Calculator | Railing Calculator | Gate Calculator - Android Apps
+        </title>
+        <meta
+          name="description"
+          content="Links to our android apps on Google play store. Calculations to speed up our 3D design work. Many information about making stairs and balustrades you wont think without experiences."
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="desktop-container">
         <div className="app-container">
-          <a
-            href="https://play.google.com/store/apps/details?id=dev.itmagic.stairandbalustrade"
-            target="_blank"
-          >
+          <a href="https://play.google.com/store/apps/details?id=dev.itmagic.stairandbalustrade">
             <div>
               <Image
                 src="/images/android/S1.PNG"
@@ -59,10 +67,7 @@ function CalculatorStair() {
           </a>
         </div>
         <div className="app-container">
-          <a
-            href="https://play.google.com/store/apps/details?id=dev.itmagic.simplepanelcalculator"
-            target="_blank"
-          >
+          <a href="https://play.google.com/store/apps/details?id=dev.itmagic.simplepanelcalculator">
             <div>
               <Image
                 src="/images/android/R1.PNG"
@@ -113,10 +118,7 @@ function CalculatorStair() {
           </a>
         </div>
         <div className="app-container">
-          <a
-            href="https://play.google.com/store/apps/details?id=dev.itmagic.gatecalculator"
-            target="_blank"
-          >
+          <a href="https://play.google.com/store/apps/details?id=dev.itmagic.gatecalculator">
             <div>
               <Image
                 src="/images/android/G1.PNG"
@@ -171,4 +173,4 @@ function CalculatorStair() {
   );
 }
 
-export default CalculatorStair;
+export default Apps;

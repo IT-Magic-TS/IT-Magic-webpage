@@ -5,16 +5,18 @@ export default function OvalStairs() {
   return (
     <>
       <Head>
-        <title>Helical Stairs & Glass Balustrade</title>
+        <title>
+          Helical Metal Stairs | Glass Balustrade | Special 3D Skills
+        </title>
         <meta
           name="description"
-          content="Unique podestrian gates for expensive London housing market"
+          content="Curved glass is expensive. Is not allowed to do any mistakes. You must have perfect 3D stair model. Cut all metal parts on water-jet or laser. "
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         <h1 className="w3-center main-posts-h1">
-          Helical Stairs & Glass Balustrade
+          Helical Metal Stairs & Glass Balustrade - Special Skills
         </h1>
         <div className="main-posts-img-container">
           <div className="w3-display-container">

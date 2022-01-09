@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import SlideShow from "../../components/slide-show/slide-show";
+import Head from "next/head";
 
 const gates = [
   {
@@ -284,6 +285,14 @@ function GalleryBalustradePage() {
 
   return (
     <>
+      <Head>
+        <title>3D models - Metal Stairs | Balustrades | Gates | Railings</title>
+        <meta
+          name="description"
+          content="Photos of 3D models designed for the most exensive housing market in UK"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="w3-hide-medium w3-hide-small gallery">
         {showSlideshow && (
           <SlideShow

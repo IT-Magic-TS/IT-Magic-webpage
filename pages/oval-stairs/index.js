@@ -5,16 +5,16 @@ export default function OvalStairs() {
   return (
     <>
       <Head>
-        <title>Bob Rai - Oval Stairs</title>
+        <title>Oval Metal Stairs & Balustrade | Wooden Floor</title>
         <meta
           name="description"
-          content="Qnique and expensive steel oval stairs with spindles balustrade. Only wood cost more than 35,000 pounds"
+          content="Very expensive project. More than 1400 parts all together. Just cost of wood is more than 35,000 pounds."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         <h1 className="w3-center main-posts-h1">
-          Bob Rai - Steel Oval Stairs and Balustrade
+          Oval Metal Stairs & Balustrade - Wooden Floor
         </h1>
         <div className="main-posts-img-container">
           <div className="w3-display-container">

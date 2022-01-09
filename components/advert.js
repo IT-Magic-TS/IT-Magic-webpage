@@ -17,7 +17,6 @@ function Advert() {
         />
         <a
           className="w3-button w3-block w3-amber"
-          target="_blank"
           href="https://play.google.com/store/apps/details?id=dev.itmagic.stairandbalustrade"
         >
           View <img src="/svg/arrow_right_black.svg" className="advert-arrow" />
@@ -38,7 +37,6 @@ function Advert() {
         />
         <a
           className="w3-button w3-block w3-amber"
-          target="_blank"
           href="https://play.google.com/store/apps/details?id=dev.itmagic.simplepanelcalculator"
         >
           View <img src="/svg/arrow_right_black.svg" className="advert-arrow" />

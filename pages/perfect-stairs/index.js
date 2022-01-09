@@ -5,12 +5,19 @@ export default function OvalStairs() {
   return (
     <>
       <Head>
-        <title>Helical Stairs & Glass Balustrade</title>
-        <meta name="description" content="Perfect Stairs & Balustrade" />
+        <title>
+          Perfect Stairs | Design Balustrade First in 3D then Stairs
+        </title>
+        <meta
+          name="description"
+          content="We show 2 different designs of the same stairs. Grren one project will finish with profit. Red one is better to walk away before start."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <h1 className="w3-center main-posts-h1">Perfect Stairs & Balustrade</h1>
+        <h1 className="w3-center main-posts-h1">
+          Perfect Stairs = Design Balustrade First in 3D then Stairs
+        </h1>
         <div className="w3-margin">
           <ul>
             <li className="emoji-list">&#9989; = Profit </li>
@@ -67,6 +74,19 @@ export default function OvalStairs() {
             />
           </div>
         </div>
+      </div>
+      <div className="app-container">
+        <a href="https://play.google.com/store/apps/details?id=dev.itmagic.stairandbalustrade">
+          <div>
+            <Image
+              src="/images/android/S1.PNG"
+              alt="Stai & Balustrade Calculator"
+              width={840}
+              height={240}
+              layout="intrinsic"
+            />
+          </div>
+        </a>
       </div>
     </>
   );

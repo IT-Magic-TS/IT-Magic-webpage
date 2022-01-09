@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SingleCard from "../../components/game/single-card";
+import Head from "next/head";
 
 const cardImages = [
   { src: "/images/game/A1.png", matched: false },
@@ -69,26 +70,40 @@ function Game() {
     shuffleCards();
   }, []);
   return (
-    <div className="game">
-      <p className="w3-center">
-        <button onClick={shuffleCards} className="w3-btn w3-green">
-          New Game
-        </button>
-      </p>
-      <div className="wrapper">
-        {cards.map(card => (
-          <div key={card.id}>
-            <SingleCard
-              card={card}
-              handleChoice={handleChoice}
-              flipped={card === choiceOne || card === choiceTwo || card.matched}
-              disabled={disabled}
-            />
-          </div>
-        ))}
+    <>
+      <Head>
+        <title>
+          Game Guess the Match - Scroll | Fire Pit | Balcony | Stairs
+        </title>
+        <meta
+          name="description"
+          content="Simple fun game - Guess matching card - Vine Rack, Fire Pit, Balcony, Scroll, Helical and Corner stairs"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="game">
+        <p className="w3-center">
+          <button onClick={shuffleCards} className="w3-btn w3-green">
+            New Game
+          </button>
+        </p>
+        <div className="wrapper">
+          {cards.map(card => (
+            <div key={card.id}>
+              <SingleCard
+                card={card}
+                handleChoice={handleChoice}
+                flipped={
+                  card === choiceOne || card === choiceTwo || card.matched
+                }
+                disabled={disabled}
+              />
+            </div>
+          ))}
+        </div>
+        <p className="w3-center turns">Turns: {turns}</p>
       </div>
-      <p className="w3-center turns">Turns: {turns}</p>
-    </div>
+    </>
   );
 }
 

@@ -5,10 +5,10 @@ export default function OvalStairs() {
   return (
     <>
       <Head>
-        <title>Q-Railing - Glass Balustrade</title>
+        <title>Q-Railing standard parts | Glass Balustrade</title>
         <meta
           name="description"
-          content="Glass Balustrade from standard q-railings componentsQ-Railing"
+          content="Q-railing's system are renowned for their flexibility. Thanks to their modular design, you can mix and match components in any way you wish."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

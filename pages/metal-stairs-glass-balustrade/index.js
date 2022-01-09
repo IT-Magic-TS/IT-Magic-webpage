@@ -5,16 +5,18 @@ export default function OvalStairs() {
   return (
     <>
       <Head>
-        <title>Metal Stairs with Laminated Glass Balustrade</title>
+        <title>
+          Metal Corner Stair | Glass Balustrade | Powder Coated Finish
+        </title>
         <meta
           name="description"
-          content="Qnique and expensive steel oval stairs with spindles balustrade. Only wood cost more than 35,000 pounds"
+          content="The best way is to avoid powder coated steal finish. Is difficult to make perfect. Better to wrap it with wood."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
         <h1 className="w3-center main-posts-h1">
-          Metal Stairs with Glass Balustrade - Pandora Construction
+          Metal Corner Stair & Glass Balustrade - Powder Coated Finish
         </h1>
         <p>
           Fun to design - not so easy to make. Probably better to wrapp
@@ -85,9 +87,6 @@ export default function OvalStairs() {
           <ul className="w3-ul">
             <li className="w3-hover-light-grey">
               Is fun to design - complicated to make.
-            </li>
-            <li className="w3-hover-light-grey">
-              Steel stairs - powder coating finish
             </li>
             <li className="w3-hover-light-grey">
               Steel stairs - powder coating finish
