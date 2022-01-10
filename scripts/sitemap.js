@@ -4,7 +4,7 @@ const formatDate = require("./formatDate");
 
 // ROBOTS.txt
 const robotsTxt = `User-agent: *
-Sitemap: https://it-magic-webpage.vercel.app/sitemap_local.xml
+Sitemap: https://itmagic.vercel.app/sitemap_local.xml
 Disallow:`;
 
 fs.writeFileSync("public/robots.txt", robotsTxt);
@@ -21,11 +21,8 @@ const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
       path => `<url>
     ${
       path === "/index"
-        ? `<loc>https://it-magic-webpage.vercel.app</loc>`
-        : `<loc>https://it-magic-webpage.vercel.app${path.replace(
-            "/index",
-            ""
-          )}</loc>`
+        ? `<loc>https://itmagic.vercel.app</loc>`
+        : `<loc>https://itmagic.vercel.app${path.replace("/index", "")}</loc>`
     }
     <lastmod>${
       pathsObj[path].lastModified
