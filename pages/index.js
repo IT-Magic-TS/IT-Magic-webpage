@@ -12,6 +12,10 @@ export default function Home() {
           content="Cutting-edge custom 3D models with gorgeous design from scratch - let us optimize your business, solving problems instead of creating new ones."
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="google-site-verification"
+          content="DWvarJ4iJlGHputsGdMDmHQ-oVwAM2pjPF2PZ9gNubs"
+        />
       </Head>
       <div className="home">
         <div className="w3-center main-img">

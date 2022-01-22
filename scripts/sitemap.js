@@ -37,3 +37,4 @@ fs.writeFileSync("public/sitemap_local.xml", sitemapXml);
 console.log("sitemap_local.xml saved!");
 
 // https://it-magic-webpage.vercel.app/
+// https://itmagic.vercel.app/
